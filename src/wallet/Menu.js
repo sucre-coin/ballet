@@ -2,7 +2,7 @@ import React from 'react';
 import { FaHome, FaHistory, FaFileExport, FaRegSun } from 'react-icons/fa';
 import './Menu.css';
 
-const Menu = ({ children }) => {
+const Menu = () => {
   return (
     <div className="menu-container">
       <div className="option"><FaHome /></div>

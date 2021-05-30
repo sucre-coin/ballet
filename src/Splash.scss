@@ -1,0 +1,34 @@
+@import 'styles/colors.scss';
+
+.splash-screen {
+  background-color: $splash-background;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  color: $splash-color;
+  .header {
+    flex-grow: 1;
+    text-align: center;
+  }
+  .logo {
+    flex-grow: 4;
+    text-align: center;
+    font-family: monospace;
+    h2 {
+      font-size: 15em;
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .buttons {
+    flex-grow: 5;
+    text-align: center;
+    div.button {
+      margin-bottom: 10px;
+    }
+  }
+  .footer {
+    flex-grow: 1;
+    text-align: center;
+  }  
+}
